@@ -1,0 +1,100 @@
+body{
+    background-color: pink;
+    color: navy;
+    /*color de text*/
+    font-family: Courier;
+    /*tahdid khat*/
+    font-size: 16px;
+    /* hajem lkhat*/
+}
+h1{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 20;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+h2{
+    color:rgb(100,100,100);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight:lighter ; 
+
+
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    /*ysyr alyha tabdil ki thot alyha souris*/
+    color: red;
+
+
+}
+div {
+    background: white;
+    padding: 60px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+    box-shadow: 0px 10px 30px orangered;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/*custom disgn with class*/
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+@media (max-width: 500px){
+    .container{
+        background-color: black;
+        width: 400px;
+    }
+}
+
+@media (max-width: 760px){
+    .container{
+        background-color: black;
+        width: 600;
+    }
+/* ki tsagher fyha ytetbadle backgr*/
+}
+    
+.img_circle{
+    border-radius: 50%;
+    padding-left: 30px;
+    width: 50%;
+}
+.btn_blue{
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-bottom: auto;
+    gap: 10px;
+}
+
+.list_inline{
+    list-style: none;
+    padding-left: 0px;
+
+}
+.list_inline li{
+    display: inline;
+    padding: 10px;
+
+}
+.list_inline i:hover{
+    font-size: 50px;
+    color: blueviolet;
+
+}
+#introduction{
+    margin-bottom: 40px;
+}
